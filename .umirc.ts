@@ -4,8 +4,23 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  routes: [
-    { path: '/', component: '@/pages/index' },
-  ],
+  layout: {
+    /** Theme for nav menu */
+    navTheme: 'dark',
+    /** Primary color of ant design */
+    // primaryColor: "#fefece",
+    /** Nav menu position: `side` or `top` */
+    layout: 'mix',
+    /** Layout of content: `Fluid` or `Fixed`, only works when layout is top */
+    contentWidth: 'Fixed',
+    /** Sticky header */
+    fixedHeader: true,
+    /** Sticky siderbar */
+    fixSiderbar: true,
+    menu: { locale: false },
+    title: 'MIS',
+    pwa: true,
+  },
+  routes: [],
   fastRefresh: {},
 });
