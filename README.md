@@ -1,2 +1,15 @@
-# mis-react
-用react栈重构vue栈的管理信息系统
+# umi project
+
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
