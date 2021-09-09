@@ -20,7 +20,8 @@ export default defineConfig({
     menu: { locale: false },
     title: 'MIS',
     pwa: true,
+    splitMenus: true,
   },
-  routes: [],
+  routes: [{ path: '/', component: '@/pages/index' }],
   fastRefresh: {},
 });
