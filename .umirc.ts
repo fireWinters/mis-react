@@ -22,12 +22,12 @@ export default defineConfig({
     pwa: true,
     splitMenus: true,
   },
-  routes: [
-    { path: '/', component: '@/pages/index' },
-    {
-      path: '/manage/datadictionary',
-      component: '@/pages/manage/datadictionary',
-    },
-  ],
+  // routes: [
+  //   { path: '/', component: '@/pages/index' },
+  //   {
+  //     path: '/manage/datadictionary',
+  //     component: '@/pages/manage/datadictionary',
+  //   },
+  // ],
   fastRefresh: {},
 });
