@@ -25,9 +25,21 @@ export default defineConfig({
   // routes: [
   //   { path: '/', component: '@/pages/index' },
   //   {
-  //     path: '/manage/datadictionary',
-  //     component: '@/pages/manage/datadictionary',
+  //     path: '/manage/change/permissionChange',
+  //     component: '@/pages/manage/change/permissionChange',
   //   },
+  //   {
+  //     path: '/manage/change/assetChange',
+  //     component: '@/pages/manage/change/assetChange',
+  //   },
+  //   {
+  //     path: '/manage/change/assetStockChange',
+  //     component: '@/pages/manage/change/assetStockChange',
+  //   },
+  //   {
+  //     path: '/manage/change/supplementaryAgreement',
+  //     component: '@/pages/manage/change/supplementaryAgreement',
+  //   }
   // ],
   fastRefresh: {},
 });
