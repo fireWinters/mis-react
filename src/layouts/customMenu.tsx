@@ -19,6 +19,7 @@ export default [
             path: '/permissionChange',
             name: 'one',
             exact: true,
+            component: '@/pages/manage/change/assetChange',
           },
           {
             path: 'supplementaryAgreement',
